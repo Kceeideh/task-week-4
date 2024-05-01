@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.general-container {
+    background-color: beige;
+    width: 500px;
+    height: 500px;
+    padding: 30px;
+    margin-left: 500px;
+    margin-top: 140px;
+}
+
+.profile-picture {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.about {
+    font-style: italic;
+    color: rgb(110, 71, 19);
+}
+
+.parag {
+    font-family: system-ui, -a pple-system, BlinkMacSystemFont, 'Segoe UI',
+        Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.image-div {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.name-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    font-weight: 500;
+    font-size: small;
+}
+
+.position-div {
+    font-weight: 100;
+    padding: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
